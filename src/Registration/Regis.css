@@ -1,0 +1,38 @@
+.input_data {
+  margin: 0px auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.input_data:focus {
+  border-color: #4f005f;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  font-size: large;
+}
+.input_data button {
+  width: 600px;
+  padding: 5px 0px;
+  background-color: greenyellow;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.input_data a {
+  font-size: larger;
+  text-decoration: none;
+}
+.error {
+  color: red;
+}

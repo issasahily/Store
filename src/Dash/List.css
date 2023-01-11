@@ -1,0 +1,23 @@
+* {
+  margin: 10px;
+}
+
+.list-product {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border: 1px solid rgb(245, 232, 232);
+}
+.list-product img {
+  padding: 20px;
+  width: 200px;
+}
+.price {
+  font-size: larger;
+  font-weight: bold;
+}
+.staricon img {
+  display: flex;
+  align-items: center;
+  width: 40px;
+}
