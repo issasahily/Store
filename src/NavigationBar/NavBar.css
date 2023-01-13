@@ -26,3 +26,18 @@
   font-size: 30px;
   text-decoration: none;
 }
+/* .link1 a:active {
+  background-color: red;
+} */
+@media (max-width: 768px) {
+  .navbar {
+    max-height: 2rem;
+  }
+  .navbar h3 {
+    font-size: 20px;
+  }
+  .link1 a {
+    padding: 1px, 4px;
+    font-size: 15px;
+  }
+}

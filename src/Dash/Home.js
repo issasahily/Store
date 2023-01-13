@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       {" "}
       {error && <div>{error}</div>}
-      {isPending && <img className="loading" src="image3.gif" />}
+      {isPending && <img className="loading" src="image3.gif" alt="none" />}
       {lists && <List lists={lists} />}
     </div>
   );

@@ -26,7 +26,7 @@ const Regis = () => {
   };
   return (
     <div className="input_data">
-      <form onSubmit={sumbitHandler}>
+      <form onSubmit={sumbitHandler} autoComplete="on">
         <label htmlFor="user_email">Email</label>
         <input id="user_email" type="email" required />
         <label htmlFor="user_name">Name</label>

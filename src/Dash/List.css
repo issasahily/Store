@@ -7,17 +7,34 @@
   text-align: left;
   align-items: center;
   border: 1px solid rgb(245, 232, 232);
+  width: 100%; /*add  */
 }
 .list-product img {
   padding: 20px;
   width: 200px;
+  /* border: 1px solid black; */
 }
 .price {
   font-size: larger;
   font-weight: bold;
 }
-.staricon img {
-  display: flex;
-  align-items: center;
-  width: 40px;
+@media (max-width: 768px) {
+  * {
+    margin: 2px;
+  }
+  /* .list-product {
+    width: auto;
+    max-height: 25%;
+  } */
+  .list-product img {
+    padding: 1px;
+    width: 90px;
+  }
+  .list-product h2 {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 12px;
+    font-weight: bold;
+  }
 }

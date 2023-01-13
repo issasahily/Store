@@ -6,23 +6,25 @@ import Home from "./Dash/Home";
 import SignIn from "./Registration/SignIn";
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <NavBar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/regis">
-            <Regis />
-          </Route>
+    <>
+      <BrowserRouter>
+        <div className="App">
+          <NavBar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/regis">
+              <Regis />
+            </Route>
 
-          <Route path="/signin">
-            <SignIn />
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter>
+            <Route path="/signin">
+              <SignIn />
+            </Route>
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
