@@ -12,8 +12,11 @@ input {
 .sign {
   margin: 0px auto;
   padding: 1rem;
-  width: 90%;
+  width: 50%;
   /* max-width: 40rem; */
+}
+.sign label {
+  font-size: larger;
 }
 .sign button {
   width: 90%;

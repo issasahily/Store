@@ -1,12 +1,15 @@
 .input_data {
   margin: 0px auto;
   padding: 1rem;
-  width: 90%;
+  width: 50%;
   /* max-width: 40rem; */
 }
 
 .input_data:focus {
   border-color: #4f005f;
+}
+.input_data label {
+  font-size: larger;
 }
 
 input {
