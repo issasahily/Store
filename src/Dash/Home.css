@@ -1,9 +1,12 @@
-/* .home {
-  display: flex;
-} */
-
 .loading {
   width: 300px;
   height: 300px;
   margin: 50px 40%;
+}
+@media (max-width: 768px) {
+  .loading {
+    width: 50%;
+    height: 25%;
+    margin: 5% 30%;
+  }
 }
