@@ -10,8 +10,8 @@ const List = ({ lists }) => {
           <div>
             <h2>{list.title}</h2>
             <p className="price">${list.price}</p>
-            <p>{list.description}</p>
-            <p>{list.category}</p>
+            <p className="desc">{list.description}</p>
+            <p className="cate">{list.category}</p>
             <p>
               <strong>Rating:</strong>({list.rating.rate}), {list.rating.count}{" "}
             </p>
